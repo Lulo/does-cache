@@ -1,5 +1,5 @@
 var express = require('express');
-var app = express();
+var app = express.createServer();
 
 var config = {
   cache: 30 // seconds
