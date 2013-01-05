@@ -36,6 +36,7 @@ app.configure(function () {
     var expires = new Date(+new Date + (1000 * config.cache)).toUTCString();
     res.header('Expires', expires);
     res.header('Cache-Control', 'max-age=' + config.cache + ', must-revalidate');
+    next();
   });
 });
 
