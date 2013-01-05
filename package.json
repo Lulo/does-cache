@@ -2,12 +2,12 @@
   "name": "does-cache",
   "version": "0.0.1",
   "dependencies": {
-    "express": "3.0.6"
+    "express": "3.0.x"
   },
   "devDependencies": {
   },
   "engines": {
-    "node": ">= 0.8"
+    "node": ">= 0.6"
   },
   "author": "Andrew Peace <andrew@onswipe.com> (http://github.com/apeace)",
   "contributors": [
